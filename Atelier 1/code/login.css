@@ -1,0 +1,149 @@
+:root {
+    --cbase : #0475EE;
+}
+body{
+    font-family: 'poppins';
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    height: 600px;
+    margin: 10px auto;
+    min-width: 600px;
+    box-sizing: border-box;
+}
+.container img:first-child {
+    position: relative;
+    left: -150px;
+    top: -35px;
+}
+.left {
+    flex: 1 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cbase);
+}
+.container img:nth-child(2) {
+    position: relative;
+    top: -20px;
+}
+.desc {
+    width: 300px;
+    height: 70px;
+    position: relative;
+    top: -20px;
+    background-color: white;
+}
+.right {
+    flex: 1 200px;
+    background-color: #e4e4fa;
+    padding-left: 26px;
+
+}
+h2{
+    color: var(--cbase);
+    margin-top: 60px;
+}
+input[type="text"] {
+    display: block;
+    margin-bottom: 25px;
+    height: 40px;
+    width: 100%;
+    text-indent: 10px;
+    border-radius: 6px;
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+}
+.infos{
+    width: 95%;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.captcha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    height: 120px;
+    width: 95%;
+    padding: 10px 6px 0px 6px; 
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.captcha button {
+    background-color: var(--cbase);
+    border: none;
+    color: #fff;
+}
+.ligne1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ligne1 button{
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+.input1 {
+    
+}
+.ligne1 p {
+    color: orange;
+    font-size: 20px;
+}
+.check{
+    display: flex;
+    margin-top: 20px;
+}
+.check a{
+    position: relative;
+    right: -30%;
+    text-decoration: none;
+}
+.btn{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -14px;
+}
+.btn button{
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid var(--cbase);
+    box-sizing: border-box;
+}
+.btn button:first-child{
+    background-color: var(--cbase);
+    color: #fff;
+}
+.btn button:last-child{
+    background-color:#fff ;
+    color: var(--cbase) ;
+  
+}
+.btn  p{
+    color: var(--cbase);
+}
+.desc {
+    padding: 20px;
+    font-size: 14px;
+    font-style: default;
+    border-radius: 4px;
+}
+.desc p span{
+    font-weight: bold;
+}
+tr td:first-child {
+    position: relative;
+    top: -10px;
+    font-weight: 700;
+}
+pre {
+    font-family: initial;
+}
+
